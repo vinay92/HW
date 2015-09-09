@@ -52,3 +52,4 @@ git reset HEAD~1
 git checkout pushed
 git revert HEAD
 ```
+!https://cloud.githubusercontent.com/assets/9776490/9775065/635946d6-571a-11e5-9c4d-9081d0bb78a6.png
