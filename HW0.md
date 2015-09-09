@@ -31,15 +31,24 @@ git commit
 git checkout bugFix
 git rebase master
 ```
-####Level 1.1 - Introduction to Git Commits
+####Level 2.1 - Detach yo' HEAD
 ```
-git commit
-git commit
+git checkout C4
 ```
-####Level 1.1 - Introduction to Git Commits
+####Level 2.2 - Relative Refs (^)
 ```
-git commit
-git commit
+git checkout bugFix
+git checkout bugFix^
 ```
-
-
+####Level 2.3 - Relative Refs #2 (~)
+```
+git branch -f bugFix HEAD~2
+git branch -f master C6
+git checkout C1
+```
+####Level 2.4 - Reversing Changes in Git
+```
+git reset HEAD~1
+git checkout pushed
+git revert HEAD
+```
