@@ -52,4 +52,5 @@ git reset HEAD~1
 git checkout pushed
 git revert HEAD
 ```
+## Screenshot of the Progress
 ![Progress](/Screenshot/progress.png)
