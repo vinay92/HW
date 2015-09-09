@@ -31,5 +31,15 @@ git commit
 git checkout bugFix
 git rebase master
 ```
+####Level 1.1 - Introduction to Git Commits
+```
+git commit
+git commit
+```
+####Level 1.1 - Introduction to Git Commits
+```
+git commit
+git commit
+```
 
 
