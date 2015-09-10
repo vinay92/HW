@@ -57,3 +57,9 @@ git revert HEAD
 
 ##Post-Commit Hook
 ![Hooks](/Hooks/Post-Commit.gif)
+
+##Contents of the post-commit hook
+```
+#!/bin/bash
+xdg-open http://www.ncsu.edu
+```
